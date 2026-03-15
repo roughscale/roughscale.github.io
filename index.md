@@ -32,38 +32,6 @@ The goal is to better understand how AI-driven agents perform when operating in 
 
 ### Adversary Simulation
 
-My earlier research focused on automated adversary simulation using reinforcement learning, modelling attacker behaviour in distributed systems and cyber environments.
-
-This work explored how learning-based agents could discover attack strategies and navigate complex systems without relying on predefined playbooks.
-
-This research forms the foundation for my current work exploring AI-driven offensive security.
-
-### LLM Pentesting Agents
-
-Recent advances in large language models have enabled the development of agents capable of performing structured penetration testing tasks.
-
-These systems combine language models with agent frameworks that support reasoning, tool use, planning, and interaction with external environments.
-
-My research explores how these agents behave when applied to realistic offensive security workflows.
-
-### Benchmarking AI Cyber Capability
-
-Understanding the capabilities of AI-driven pentesting agents requires reproducible evaluation environments.
-
-Current work therefore focuses on reproducing and analysing benchmark environments and evaluating how modern models perform across generations of AI systems.
-
-### Architecture and Capability Analysis
-
-Beyond model capability alone, agent architecture plays a critical role in determining performance.
-
-This research examines how architectural design choices — including tool orchestration, planning strategies, memory mechanisms, and multi-agent coordination — influence the effectiveness and reliability of AI-driven security agents.
-
----
-
-## Research Areas
-
-### Adversary Simulation
-
 My earlier research explored automated adversary simulation using deep reinforcement learning. This work modelled attacker behaviour as a sequential decision-making process in which an agent learns to navigate and exploit a target environment through interaction.
 
 The research built upon existing cyber-security simulation environments such as CybORG and investigated the effectiveness of value-based and policy-based DRL algorithms for modelling adversarial behaviour.

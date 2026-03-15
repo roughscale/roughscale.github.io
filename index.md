@@ -71,6 +71,8 @@ Beyond model capability alone, agent architecture plays a critical role in deter
 
 This research examines how architectural design choices — including tool orchestration, planning strategies, memory mechanisms, and multi-agent coordination — influence the effectiveness and reliability of AI-driven security agents.
 
+---
+
 ## Current Research Programme
 
 The current research programme focuses on reproducing and analysing key research systems in the emerging field of AI-driven offensive security.
@@ -89,6 +91,14 @@ This work is intended to build a deeper understanding of how autonomous offensiv
 ## Experiments
 
 Experiment artifacts are published as separate repositories.  The details of these experiments will be listed here.
+
+---
+
+## Research Literature
+
+This page summarises research systems and papers related to automated pentesting agents and AI-driven offensive security.
+
+[Literature Overview](literature)
 
 ---
 

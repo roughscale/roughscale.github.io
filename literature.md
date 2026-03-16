@@ -33,15 +33,16 @@ These challenges motivate the exploration of newer approaches based on large lan
 
 ## LLM Pentesting Agents
 
-## LLM Pentesting Agents
-
 The emergence of large language models created new opportunities to automate aspects of penetration testing by combining LLM reasoning with tool execution and interaction with external systems.
 
-One of the earliest widely discussed systems was **PentestGPT**, which demonstrated that language models could guide penetration testing workflows by reasoning about reconnaissance results and orchestrating external security tools.
+Early work such as **PentestGPT** demonstrated the potential for large language models to assist penetration testers, but relied on human interaction.
 
-Since then, a growing ecosystem of LLM-driven pentesting agents has emerged in both academic research and open-source development. Representative systems from this evolving landscape include:
+Later research began exploring fully autonomous agents capable of interacting directly with target environments. Early systems such as **HackingBuddyGPT** and **PenHeal** demonstrated this capability but were evaluated on limited or non-standardised environments.
 
-- CyBench
+The **CyBench** paper represents a convenient starting point in the research by providing a reproducible framework for evaluating autonomous LLM pentesting agents across multiple vulnerable targets and model architectures.
+
+Over the last two years, a growing ecosystem of LLM-driven pentesting agents has emerged in academic research. These include:
+
 - AutoPT
 - RapidPen
 - BountyBench
@@ -55,7 +56,7 @@ Since then, a growing ecosystem of LLM-driven pentesting agents has emerged in b
 - CAI
 - PentestGPTv2
 
-In parallel with academic research, a growing number of open-source pentesting agents have appeared in the wider ecosystem. Examples include projects such as **Raptor**, which explore similar ideas outside of formal research publications.
+In parallel with academic research, a growing number of pentesting agents have appeared in the wider ecosystem. Examples include projects such as **Raptor**, which explore similar ideas within the open source community, as well as **XBOW**, perhaps one of the first commercial offerings of this kind of capability.
 
 ---
 
@@ -63,13 +64,14 @@ In parallel with academic research, a growing number of open-source pentesting a
 
 As LLM-driven pentesting agents emerge, benchmark environments are becoming increasingly important for evaluating capability.
 
-PentestGPTv2 evaluated agents using several benchmark environments, including:
+Benchmarks that have provided structured environments for testing agent behaviour in offensive security tasks include:
 
-- the **PentestGPT benchmark**
-- the **XBOW validation benchmark**
+- **PentestGPT**
+- **CyBench**,
+- **XBOW validation benchmark**
+- **BountyBench**
+- **CAI**
 - **GOAD** (Game of Active Directory)
-
-Other research efforts have introduced additional evaluation frameworks such as **CyBench**, **BountyBench** and **CAI**, which aim to provide structured environments for testing agent behaviour in offensive security tasks.
 
 Reproducing and analysing these benchmark systems forms a key part of this research programme.
 

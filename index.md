@@ -1,9 +1,8 @@
 ---
 layout: home
-title: AI Offensive Security Research
+title: "AI Offensive Security Research"
+author_profile: true
 ---
-
-# AI Offensive Security Research
 
 This site documents my independent research into the use of AI for offensive cybersecurity.
 
@@ -86,25 +85,4 @@ This includes:
 
 This work is intended to build a deeper understanding of how autonomous offensive security agents are evolving and where their practical limits currently lie.
 
----
-
-## Experiments
-
-Experiment artifacts are published as separate repositories.  The details of these experiments will be listed here.
-
----
-
-## Research Literature
-
-This page summarises research systems and papers related to automated pentesting agents and AI-driven offensive security.
-
-[Literature Overview](literature)
-
----
-
-## About
-
-I am a security engineer with a long-standing research interest in adversary simulation, offensive security, and the application of AI to cybersecurity problems.
-
-This site serves as the public research index for my ongoing work in AI Offensive Security Research.
 

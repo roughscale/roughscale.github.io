@@ -1,0 +1,14 @@
+main:
+  - title: "Research"
+    url: /
+  - title: "Literature"
+    url: /literature/
+    children:
+      - title: "Deep Reinforcement Learning"
+        url: /literature/drl/
+      - title: "Large Language Models"
+        url: /literature/llm/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/

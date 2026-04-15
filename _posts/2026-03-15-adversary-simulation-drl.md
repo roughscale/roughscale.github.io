@@ -1,10 +1,21 @@
 ---
-layout: page
-title: Reinforcement Learning Adversary Simulation
-permalink: /adversary-simulation-drl/
+layout: single
+title: "Reinforcement Learning Adversary Simulation"
+date: 2026-03-15
+permalink: /literature/drl/adversary-simulation-drl/
+author_profile: true
+toc: true
+toc_sticky: true
+toc_label: "Contents"
+categories:
+  - literature
+  - drl
+tags:
+  - reinforcement-learning
+  - adversary-simulation
+  - cybORG
+  - penetration-testing
 ---
-
-# Reinforcement Learning Adversary Simulation
 
 My earlier research investigated automating adversary simulation using deep reinforcement learning.
 
@@ -31,7 +42,7 @@ The experiment followed a two-stage evaluation process.
 1. Reinforcement learning agents were trained in the **CybORG simulated environment**.
 2. Agents that successfully learned attack strategies in simulation were then evaluated against **emulated network environments**.
 
-The advantage of this approach was that simulated environments provide an efficient method to train on large number of training steps over emulated environments.  
+The advantage of this approach was that simulated environments provide an efficient method to train on large number of training steps over emulated environments.
 
 This approach also provided an opportunity to determine whether strategies learned in simulation could transfer to environments closer to real infrastructure.
 
@@ -110,4 +121,3 @@ Large language models provide a different approach to representing and reasoning
 Rather than encoding observations as structured feature vectors, LLM-driven agents can interpret complex system outputs directly and reason about attack strategies using natural language representations.
 
 My current work explores how these agents behave in offensive cybersecurity environments and how different agent architectures influence their capabilities.
-

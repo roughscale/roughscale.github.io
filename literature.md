@@ -1,10 +1,12 @@
 ---
-layout: page
-title: Literature
+layout: single
+title: "Literature"
 permalink: /literature/
+author_profile: true
+toc: true
+toc_sticky: true
+toc_label: "Contents"
 ---
-
-# Literature
 
 This page tracks research related to the use of AI for offensive cybersecurity.
 

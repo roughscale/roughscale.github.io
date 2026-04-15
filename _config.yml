@@ -1,0 +1,112 @@
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+title: "AI Offensive Security Research"
+subtitle: "Independent research into AI-driven penetration testing and adversary simulation"
+description: >-
+  Independent research into the use of AI for offensive cybersecurity, covering
+  LLM pentesting agents, benchmarking, and adversary simulation.
+url: "https://boloughlin.github.io"  # update to your actual GitHub Pages URL
+baseurl: ""  # update if your repo is not at the root (e.g. "/repo-name")
+
+repository: "boloughlin/research-blog-site"  # update to your actual repo
+
+# Theme skin: "default", "air", "aqua", "contrast", "dark", "dirt",
+#             "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark"
+
+breadcrumbs: true
+
+# Date format for posts
+date_format: "%B %-d, %Y"
+
+# Site author
+author:
+  name: "Brenton O'Loughlin"
+  bio: "Security engineer researching AI-driven offensive security, LLM pentesting agents, and adversary simulation."
+  location: "Australia"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/brentonoloughlin"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bxeno"
+    - label: "Roughscale"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/roughscale"
+
+# Site footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/brentonoloughlin"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bxeno"
+    - label: "Roughscale"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/roughscale"
+
+# Build settings
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Reading files
+include:
+  - _pages
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+      toc: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # root pages
+  - scope:
+      path: "*.md"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+
+# Markdown processing
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge

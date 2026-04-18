@@ -88,4 +88,13 @@ The current research program focuses on:
 - analysing architectural differences between agents
 - studying how agent capability evolves across model generations
 
+---
+
+## Research Reviews
+
+Detailed reviews and reproductions are organised by research area:
+
+- [Large Language Models](/literature/llm/) — LLM pentesting agents and benchmarks
+- [Deep Reinforcement Learning](/literature/drl/) — RL-based adversary simulation
+
 

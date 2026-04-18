@@ -18,4 +18,4 @@ The reviews are intended to build a chronological picture of how LLM pentesting 
 
 | Date | Paper | Description |
 | --- | --- | --- |
-| April 2026 | [CyBench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](/literature/llm/cybench-evaluation/) | Reproduction and evaluation of the CyBench benchmark using GPT-5 and Claude Sonnet 4.5 |
+| April 2026 | [Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](/literature/llm/cybench-evaluation/) | Reproduction and evaluation of the Cybench benchmark using GPT-5 and Claude Sonnet 4.5 |

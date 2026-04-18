@@ -62,7 +62,7 @@ My current research explores how these LLM-based agents perform when applied to 
 
 Understanding the capabilities of AI-driven pentesting agents requires reproducible evaluation environments.
 
-Current work therefore focuses on reproducing and analysing benchmark systems such as CyBench and related research frameworks in order to evaluate how modern models perform across different offensive security tasks.
+Current work therefore focuses on reproducing and analysing benchmark systems such as Cybench and related research frameworks in order to evaluate how modern models perform across different offensive security tasks.
 
 ### Architecture and Capability Analysis
 

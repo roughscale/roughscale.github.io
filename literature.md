@@ -41,7 +41,7 @@ Early work such as **PentestGPT** demonstrated the potential for large language 
 
 Later research began exploring fully autonomous agents capable of interacting directly with target environments. Early systems such as **HackingBuddyGPT** and **PenHeal** demonstrated this capability but were evaluated on limited or non-standardised environments.
 
-The **CyBench** paper represents a convenient starting point in the research by providing a reproducible framework for evaluating autonomous LLM pentesting agents across multiple vulnerable targets and model architectures.
+The **Cybench** paper represents a convenient starting point in the research by providing a reproducible framework for evaluating autonomous LLM pentesting agents across multiple vulnerable targets and model architectures.
 
 Over the last two years, a growing ecosystem of LLM-driven pentesting agents has emerged in academic research. These include:
 
@@ -69,7 +69,7 @@ As LLM-driven pentesting agents emerge, benchmark environments are becoming incr
 Benchmarks that have provided structured environments for testing agent behaviour in offensive security tasks include:
 
 - **PentestGPT**
-- **CyBench**,
+- **Cybench**,
 - **XBOW validation benchmark**
 - **BountyBench**
 - **CAI**

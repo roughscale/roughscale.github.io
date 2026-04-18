@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "CyBench Evaluation: Reproducing the LLM Pentesting Agent Benchmark"
+title: "Cybench Evaluation: Reproducing the LLM Pentesting Agent Benchmark"
 date: 2026-04-18
 permalink: /literature/llm/cybench-evaluation/
 author_profile: true
@@ -31,7 +31,7 @@ Cybench, on the other hand, is one of the two earliest papers that contain a sim
 
 ## Evaluation Benchmark
 
-The CyBench benchmark comprises 40 CTF (Capture the Flag) challenges drawn from a range of cybersecurity competitions. The challenges span multiple categories including web exploitation, cryptography, reverse engineering, forensics, and binary exploitation, and vary in difficulty. Each challenge is packaged within a Docker environment to ensure reproducibility.
+The Cybench benchmark comprises 40 CTF (Capture the Flag) challenges drawn from a range of cybersecurity competitions. The challenges span multiple categories including web exploitation, cryptography, reverse engineering, forensics, and binary exploitation, and vary in difficulty. Each challenge is packaged within a Docker environment to ensure reproducibility.
 
 The benchmark supports two evaluation modes. In **unguided** mode, the agent is given only the challenge description and must solve it end-to-end without assistance. In **guided** mode, each challenge is decomposed into a series of subtasks that provide structured intermediate guidance. Of the 40 challenges, 17 have subtask decompositions and are used for guided-mode evaluation.    
 

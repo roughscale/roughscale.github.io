@@ -2,23 +2,66 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$doc-font-size: 12;
+// Match footer background to masthead (air skin defaults footer to primary/blue)
+$footer-background-color: #eeeeee;
+
+// Increase small type sizes — defaults (0.75em down to 0.625em) are too small
+// relative to body text on a light background
+$type-size-6: 0.875em;  // sidebar labels, tags, meta (~14px)
+$type-size-7: 0.8em;    // secondary meta (~13px)
+$type-size-8: 0.75em;   // smallest elements (~12px)
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+// Masthead: increase subtitle from $type-size-8 (~10px) to readable size
+.site-title {
+  font-size: 1.2em;
+}
+
+.site-subtitle {
+  font-size: 0.9em;
+  color: #393e46;
+}
+
+// Footnotes use mix(#fff, $gray, 25%) which is too light on a light background
+.footnote {
+  color: #393e46;
+}
+
+.footnotes {
+  color: #393e46;
+}
+
+a.reversefootnote {
+  color: #393e46;
+}
+
+// Air skin forces white footer text — override for light background
+.page__footer {
+  color: #393e46 !important;
+
+  a {
+    color: #393e46;
+
+    &:hover {
+      color: #0092ca;
+    }
+  }
+}
+
 html {
-  font-size: 14px;
+  font-size: 16px;
 
   @include breakpoint($medium) {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   @include breakpoint($large) {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 16px;
+    font-size: 18px;
   }
 }

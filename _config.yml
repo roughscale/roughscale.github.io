@@ -1,7 +1,8 @@
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
-title: "AI Offensive Security Research"
+title: "Roughscale - AI Offensive Security Research"
 subtitle: "Independent research into AI-driven penetration testing and adversary simulation"
+copyright: "Roughscale"
 description: >-
   Independent research into the use of AI for offensive cybersecurity, covering
   LLM pentesting agents, benchmarking, and adversary simulation.
@@ -12,7 +13,7 @@ repository: "boloughlin/research-blog-site"  # update to your actual repo
 
 # Theme skin: "default", "air", "aqua", "contrast", "dark", "dirt",
 #             "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "air"
 
 breadcrumbs: true
 
@@ -28,7 +29,7 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/brentonoloughlin"
-    - label: "GitHub"
+    - label: "Bxeno"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bxeno"
     - label: "Roughscale"
@@ -41,7 +42,7 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/brentonoloughlin"
-    - label: "GitHub"
+    - label: "Bxeno"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bxeno"
     - label: "Roughscale"

@@ -1,0 +1,39 @@
+{% assign locale = include.locale | default: site.locale %}
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+
+    {% comment %}Build a clean crumbs array with no empty strings from leading/trailing slashes{% endcomment %}
+    {% assign raw_crumbs = page.url | split: '/' %}
+    {% assign clean_crumbs = '' | split: '' %}
+    {% for crumb in raw_crumbs %}
+      {% if crumb != '' %}
+        {% assign clean_crumbs = clean_crumbs | push: crumb %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign cumulative_path = '' %}
+    {% assign i = 1 %}
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ '/' | relative_url }}" itemprop="item"><span itemprop="name">{{ site.data.ui-text[locale].breadcrumb_home_label | default: "Home" }}</span></a>
+      <meta itemprop="position" content="{{ i }}" />
+    </li>
+    <span class="sep">{{ site.data.ui-text[locale].breadcrumb_separator | default: "/" }}</span>
+
+    {% for crumb in clean_crumbs %}
+      {% assign i = i | plus: 1 %}
+      {% assign cumulative_path = cumulative_path | append: '/' | append: crumb %}
+      {% if forloop.last %}
+        <li class="current"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</li>
+      {% else %}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="{{ cumulative_path | append: '/' | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb | url_decode | replace: '-', ' ' | capitalize }}</span></a>
+          <meta itemprop="position" content="{{ i }}" />
+        </li>
+        <span class="sep">{{ site.data.ui-text[locale].breadcrumb_separator | default: "/" }}</span>
+      {% endif %}
+    {% endfor %}
+
+  </ol>
+</nav>
